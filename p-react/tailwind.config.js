@@ -10,6 +10,9 @@ module.exports = {
         background: "#fffaf5",
         text: "#555555",
       },
+      fontFamily: {
+        heading: ["Slackey-Regular"],
+      },
     },
   },
   plugins: [],

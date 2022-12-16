@@ -5,7 +5,7 @@ import star from "../../assets/Star 1.png";
 export default function Pageheader() {
   return (
     <>
-      <div className="flex flex-row h-96 w-full mt-10">
+      <div className="flex flex-row h-full w-full mt-10">
         <div className="basis-5/12">
           <div
             className="flex h-[450px] bg-cover w-[550px] rounded"
@@ -14,20 +14,20 @@ export default function Pageheader() {
             }}
           ></div>
           <div
-            className="w-96 h-[310px] bg-cover rounded fixed top-56 ml-80 mt-32"
+            className="xl:w-96 w-72 h-52 xl:h-[310px] bg-cover rounded flex top-56 xl:ml-80 ml-64 mt-32 absolute"
             style={{
               backgroundImage: `url(${dog})`,
             }}
           ></div>
         </div>
-        <div className="basis-7/12">
+        <div className="basis-6/12">
           <svg
             width="39"
             height="39"
             viewBox="0 0 39 39"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="fixed left-1/3 top-72"
+            className="absolute left-1/3 top-72"
           >
             <path
               d="M19.5 0L22.3956 16.6044L39 19.5L22.3956 22.3956L19.5 39L16.6044 22.3956L0 19.5L16.6044 16.6044L19.5 0Z"
@@ -35,7 +35,7 @@ export default function Pageheader() {
             />
           </svg>
 
-          <h1 className="text-secondary text-7xl w-5/6 font-heading leading-tight">
+          <h1 className="text-secondary text-7xl xl:min-w-[618px] w-full font-heading leading-tight">
             We take care of your pet and help them to grow 😍
           </h1>
           <h2 className="text-primary w-3/6 text-base leading-7 mt-10">
@@ -48,7 +48,7 @@ export default function Pageheader() {
             viewBox="0 0 121 118"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="fixed right-96"
+            className="absolute right-96"
           >
             <circle
               r="52.0125"
@@ -80,7 +80,7 @@ export default function Pageheader() {
               viewBox="0 0 70 71"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="fixed mt-5"
+              className="absolute mt-5"
             >
               <g filter="url(#filter0_d_1_50)">
                 <path
@@ -200,7 +200,6 @@ export default function Pageheader() {
             <div className="ml-16 mt-7">
               <h3 className="font-heading text-secondary">How to take care</h3>
               <p className="text-primary">
-                {" "}
                 perfect one you will like it. It’s our promise.
               </p>
             </div>

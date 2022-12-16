@@ -3,7 +3,7 @@ import Homepage from "./component/HomePage/homepage";
 
 function App() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background min-w-full">
       <Homepage />
     </div>
   );
